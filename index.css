@@ -1,0 +1,168 @@
+/* Reset some default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: bisque;
+    color: #110e0e;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+    color: gray;
+}
+
+header h1 {
+    color: rgb(83, 18, 18); /* Original color */
+    text-shadow: 
+        0 0 5px #FFFFE3, 
+        0 0 10px #FFFFE3, 
+        0 0 15px #FFFFE3; /* Subtle neon effect */
+    transition: text-shadow 2 ease, color 1s ease; /* Smooth transition */
+    transition: 1s;
+}
+
+header h1:hover {
+    color: rgb(83, 18, 18); /* Change color on hover */
+    text-shadow: 
+    0 0 5px #FFFFE3, 
+    0 0 10px  #FFFFE3, 
+    0 0 20px #FFFFE3, 
+    0 0 30px #FFFFE3, 
+    0 0 40px #FFFFE3, 
+    0 0 50px #FFFFE3;  /* Enhanced glow effect */
+        font-size: 2rem;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+main:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+main p {
+    color: black;
+}
+
+#project {
+    color: rgb(134, 57, 2); /* Original color */
+    transition: color 0.3s ease, text-decoration-color 0.3s ease; /* Smooth transition */
+    text-decoration-color: rgb(134, 57, 2); /* Underline color */
+}
+
+/* Style for the ul list */
+table {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+}
+
+/* Style for each list item */
+table tr th {
+    color: rgb(83, 4, 27); /* Original color */
+    padding: 10px; /* Add some padding */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect for list items */
+tr th:hover {
+    background-color: rgba(83, 18, 18, 0.1); /* Light background color on hover */
+    color: rgb(126, 0, 21); /* Change color on hover */
+    transform: scale(1.05); /* Slightly enlarge the item */
+}
+
+table tr td {
+    color: rgb(83, 4, 27); /* Original color */
+    padding: 10px; /* Add some padding */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+tr td:hover {
+    background-color: rgba(83, 18, 18, 0.1); /* Light background color on hover */
+    color: rgb(126, 0, 21); /* Change color on hover */
+    transform: scale(1.05); /* Slightly enlarge the item */
+}
+
+table tr td {
+    color: rgb(83, 4, 27); /* Original color */
+    padding: 10px; /* Add some padding */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+tr td:hover {
+    background-color: rgba(83, 18, 18, 0.1); /* Light background color on hover */
+    color: rgb(126, 0, 21); /* Change color on hover */
+    transform: scale(1.05); /* Slightly enlarge the item */
+}
+
+table tr td {
+    color: rgb(83, 4, 27); /* Original color */
+    padding: 10px; /* Add some padding */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+tr td:hover {
+    background-color: rgba(83, 18, 18, 0.1); /* Light background color on hover */
+    color: rgb(126, 0, 21); /* Change color on hover */
+    transform: scale(1.05); /* Slightly enlarge the item */
+}
+table tr td {
+    color: rgb(83, 4, 27); /* Original color */
+    padding: 10px; /* Add some padding */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+tr td:hover {
+    background-color: rgba(83, 18, 18, 0.1); /* Light background color on hover */
+    color: rgb(126, 0, 21); /* Change color on hover */
+    transform: scale(1.05); /* Slightly enlarge the item */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 1em;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Add some responsive design */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2em;
+    }
+    main {
+        padding: 15px;
+    }
+}
